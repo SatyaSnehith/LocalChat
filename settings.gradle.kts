@@ -25,4 +25,10 @@ rootProject.name = "LocalChat"
 include(":app")
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 include(":core:database")
+include(":core:datastore")
+include(":core:chatserver")
+include(":core:designsystem")
+include(":core:model")
+include(":core:chatclient")
