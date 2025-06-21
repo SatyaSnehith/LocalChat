@@ -1,14 +1,10 @@
-import com.android.build.api.dsl.Packaging
-
 plugins {
     alias(libs.plugins.localchat.android.application)
     alias(libs.plugins.localchat.android.application.compose)
-    alias(libs.plugins.localchat.android.application.flavors)
     alias(libs.plugins.localchat.android.application.jacoco)
 //    alias(libs.plugins.localchat.android.application.firebase)
     alias(libs.plugins.localchat.hilt)
     id("com.google.android.gms.oss-licenses-plugin")
-    alias(libs.plugins.baselineprofile)
     alias(libs.plugins.roborazzi)
     alias(libs.plugins.kotlin.serialization)
 }

@@ -102,10 +102,6 @@ gradlePlugin {
             id = libs.plugins.localchat.android.application.firebase.get().pluginId
             implementationClass = "AndroidApplicationFirebaseConventionPlugin"
         }
-        register("androidFlavors") {
-            id = libs.plugins.localchat.android.application.flavors.get().pluginId
-            implementationClass = "AndroidApplicationFlavorsConventionPlugin"
-        }
         register("androidLint") {
             id = libs.plugins.localchat.android.lint.get().pluginId
             implementationClass = "AndroidLintConventionPlugin"

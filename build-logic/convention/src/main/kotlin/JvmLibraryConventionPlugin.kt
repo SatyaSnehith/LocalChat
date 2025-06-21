@@ -12,9 +12,7 @@
  *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
- */
-
-import com.satyasnehith.localchat.configureKotlinJvm
+ */import com.satyasnehith.localchat.configureKotlinJvm
 import com.satyasnehith.localchat.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
