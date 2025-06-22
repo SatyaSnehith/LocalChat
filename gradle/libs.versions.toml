@@ -229,3 +229,4 @@ localchat-android-room = { id = "localchat.android.room" }
 localchat-android-test = { id = "localchat.android.test" }
 localchat-hilt = { id = "localchat.hilt" }
 localchat-jvm-library = { id = "localchat.jvm.library" }
+localchat-serialization = { id = "localchat.serialization" }

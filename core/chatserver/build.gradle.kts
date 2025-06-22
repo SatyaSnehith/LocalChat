@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.localchat.android.library)
     alias(libs.plugins.localchat.android.library.jacoco)
     alias(libs.plugins.localchat.hilt)
+    alias(libs.plugins.localchat.serialization)
 }
 
 android {

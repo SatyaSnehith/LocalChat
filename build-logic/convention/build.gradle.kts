@@ -110,5 +110,9 @@ gradlePlugin {
             id = libs.plugins.localchat.jvm.library.get().pluginId
             implementationClass = "JvmLibraryConventionPlugin"
         }
+        register("serialization") {
+            id = libs.plugins.localchat.serialization.get().pluginId
+            implementationClass = "SerializationConventionPlugin"
+        }
     }
 }
